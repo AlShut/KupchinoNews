@@ -88,10 +88,10 @@ public class ExtendedMail extends Activity {
 				title = ((EditText)findViewById(R.id.screen_sendnews_et_title)).getText().toString();
 				text = ((EditText)findViewById(R.id.screen_sendnews_et_text)).getText().toString();
 				
-				from = "shut@mail2k.ru";
-				where = "shutmail2k@yandex.ru";
+				from = "";
+				where = "";
 				
-                MailSenderClass sender = new MailSenderClass("shut@mail2k.ru", "gfhfkktkjuhfvv2017");
+                MailSenderClass sender = new MailSenderClass("email", "password");
                 
                 sender.sendMail(title, text, from, where, attach);
 			} catch (Exception e) {
