@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "618041215163",
+    "firebase_url": "https://kupchinonews.firebaseio.com",
+    "project_id": "kupchinonews",
+    "storage_bucket": "kupchinonews.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618041215163:android:11097b1e9b45ec86",
+        "android_client_info": {
+          "package_name": "com.example.helen.kupchinonews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618041215163-l936k89b4au40ddfddl3hncb315mopot.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.helen.kupchinonews",
+            "certificate_hash": "c8cb836b7060c14705b153645a703c0972ede8c2"
+          }
+        },
+        {
+          "client_id": "618041215163-2jk0e3q57si5fc1lj6lgc7dhl89obqd6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATCyu5A8lmZ5X6ET6b4vug_ww3wgZWFFM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618041215163-2jk0e3q57si5fc1lj6lgc7dhl89obqd6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

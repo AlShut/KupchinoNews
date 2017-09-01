@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+
+	<EditText 
+	    android:id ="@+id/screen_sendnews_et_title"
+		android:text="Заголовок новости"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+	/>
+
+    <Button 
+    	android:id="@+id/screen_sendnews_btn_selectVideo"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="Добавить видео"
+    />
+    
+    <FrameLayout 
+		android:id="@+id/mainlayout"
+		android:layout_height="327dp"
+		android:layout_width="fill_parent"
+		android:orientation="vertical" >
+		
+	    <EditText 
+		    android:id ="@+id/screen_sendnews_et_text"
+			android:text="Введите сюда текст вашей новости"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_marginBottom="25px"
+		/>
+
+	</FrameLayout>
+
+	<Button
+		android:id="@+id/screen_sendnews_btn_send"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="bottom"
+		android:text="Отправить" />
+
+</LinearLayout>

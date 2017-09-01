@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="material-values-1.1.1">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/1c61f0a52b02d14ef3f0a4d0b1c0e218a780014d/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/1c61f0a52b02d14ef3f0a4d0b1c0e218a780014d/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/blue.aodev/material-values/1.1.1/3dba423d24a6de97aa54cfe25d7f1d3b8c2ba4e7/material-values-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
